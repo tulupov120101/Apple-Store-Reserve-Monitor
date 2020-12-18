@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #!/usr/bin/env python
 
 from __future__ import print_function, unicode_literals
@@ -21,7 +22,7 @@ signal.signal(signal.SIGINT, signal_handler)
 class Monitor:
     """A class to constantly monitor stock at periodic intervals."""
 
-    POLLING_INTERVAL_SECONDS = 30
+    POLLING_INTERVAL_SECONDS = 300
 
     def __init__(self):
         """Initializer."""
@@ -31,8 +32,9 @@ class Monitor:
     def start_monitoring(self):
         """Start monitoring store's stock."""
         while True:
+            print(chr(27) + "[2J")
             self.store_checker.refresh()
-            time.sleep(30)
+            time.sleep(300)
 
 
 if __name__ == "__main__":

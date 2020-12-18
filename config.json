@@ -1,9 +1,7 @@
 {
-  "country_code": "de",
-  "device_family": "iphone_12_mini",
-  "zip_code": "10369",
-  "models": ["MGJ53ZD/A"],
-  "carriers": ["TMOBILE/US", "SPRINT/US", "ATT/US"],
-  "stores": ["R462"],
-  "appointment_stores": ["R358", "R462"]
+  "country_code": "us",
+  "zip_code": "29642",
+  "models": ["MGYH3AM/A", "MGYM3AM/A", "MGYL3AM/A", "MGYN3AM/A", "MGYJ3AM/A"],
+  "stores": [],
+  "appointment_stores": []
 }
